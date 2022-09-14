@@ -1,19 +1,16 @@
 <p align="center">
-  <a href="https://www.parseable.io" target="_blank"><img src="https://raw.githubusercontent.com/parseablehq/.github/main/images/logo.svg" alt="Parseable" width="600" height="150" /></a>
+  <span">
+    <a href="https://www.parseable.io" target="_blank"><img src="https://raw.githubusercontent.com/parseablehq/.github/main/images/logo.svg#gh-light-mode-only" alt="Parseable" width="500" height="100" /></a>
+    <a href="https://www.parseable.io" target="_blank"><img src="https://raw.githubusercontent.com/parseablehq/.github/main/images/logo-dark.png#gh-dark-mode-only" alt="Parseable" width="500" height="100" /></a>
+  </a> 
 </p>
 
-Parseable is an open source, cloud native, log storage and management platform. 
-
-Parseable helps you ingest high volumes of log data from various sources (Fluentbit, Logstash etc or directly from applications). Parseable stores log data into highly compressed Parquet file format. With object storage as primary storage for Parseable, you get seamless scale and flexibility for ever growing log data.
+Parseable is an efficient and scalable log storage and management platform. Cloud native by design, Parseable ensures ease of deployment and use. It is compatible with standard logging agents like FluentBit, LogStash etc. Parseable also offers a builtin, intuitive GUI for log query and analysis. With object storage as primary storage for Parseable, you get seamless scale and flexibility for ever growing log data.
 
 <h3 align="center">
   <b><a href="https://www.parseable.io/docs/quick-start">Get Started</a></b>
   •
   <a href="https://demo.parseable.io">Live Demo</a>
   •
-  <a href="https://www.parseable.io/docs/intro">Documentation</a>
-  •
-  <a href="https://www.parseable.io/#community">Community</a>
-  •
-  <a href="https://www.parseable.io/docs/contributing">Contributing Guide</a>
+  <a href="https://www.parseable.io/#community">Join Slack</a>
 </h3>
