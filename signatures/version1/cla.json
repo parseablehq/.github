@@ -1,52 +1,60 @@
 {
-    "signedContributors": [
-      {
-        "name": "trueleo",
-        "id": 29176136,
-        "comment_id": 1565319320,
-        "created_at": "2023-05-27T10:06:43Z",
-        "repoId": 520784735,
-        "pullRequestNo": 425
-      },
-      {
-        "name": "czyt",
-        "id": 19337206,
-        "comment_id": 1636692250,
-        "created_at": "2023-07-15T06:59:07Z",
-        "repoId": 520784735,
-        "pullRequestNo": 453
-      },
-      {
-        "name": "aldrinjenson",
-        "id": 53407417,
-        "comment_id": 1709632333,
-        "created_at": "2023-09-07T07:38:23Z",
-        "repoId": 523035254,
-        "pullRequestNo": 129
-      },      
-      {
-        "name": "Ryiski",
-        "id": 47484379,
-        "comment_id": 1564572383,
-        "created_at": "2023-05-26T15:34:15Z",
-        "repoId": 523035254,
-        "pullRequestNo": 62
-      },
-      {
-        "name": "kartik-gupta-ij",
-        "id": 84975264,
-        "comment_id": 1625309802,
-        "created_at": "2023-07-07T12:02:14Z",
-        "repoId": 523035254,
-        "pullRequestNo": 70
-      },
-      {
-        "name": "ssd71",
-        "id": 20183094,
-        "comment_id": 1648432070,
-        "created_at": "2023-07-24T18:47:46Z",
-        "repoId": 523035254,
-        "pullRequestNo": 91
-      }
-    ]
-  }
+  "signedContributors": [
+    {
+      "name": "trueleo",
+      "id": 29176136,
+      "comment_id": 1565319320,
+      "created_at": "2023-05-27T10:06:43Z",
+      "repoId": 520784735,
+      "pullRequestNo": 425
+    },
+    {
+      "name": "czyt",
+      "id": 19337206,
+      "comment_id": 1636692250,
+      "created_at": "2023-07-15T06:59:07Z",
+      "repoId": 520784735,
+      "pullRequestNo": 453
+    },
+    {
+      "name": "aldrinjenson",
+      "id": 53407417,
+      "comment_id": 1709632333,
+      "created_at": "2023-09-07T07:38:23Z",
+      "repoId": 523035254,
+      "pullRequestNo": 129
+    },
+    {
+      "name": "Ryiski",
+      "id": 47484379,
+      "comment_id": 1564572383,
+      "created_at": "2023-05-26T15:34:15Z",
+      "repoId": 523035254,
+      "pullRequestNo": 62
+    },
+    {
+      "name": "kartik-gupta-ij",
+      "id": 84975264,
+      "comment_id": 1625309802,
+      "created_at": "2023-07-07T12:02:14Z",
+      "repoId": 523035254,
+      "pullRequestNo": 70
+    },
+    {
+      "name": "ssd71",
+      "id": 20183094,
+      "comment_id": 1648432070,
+      "created_at": "2023-07-24T18:47:46Z",
+      "repoId": 523035254,
+      "pullRequestNo": 91
+    },
+    {
+      "name": "nitisht",
+      "id": 5156139,
+      "comment_id": 1722172992,
+      "created_at": "2023-09-16T08:13:24Z",
+      "repoId": 523035254,
+      "pullRequestNo": 142
+    }
+  ]
+}
