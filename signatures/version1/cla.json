@@ -303,6 +303,14 @@
       "created_at": "2024-11-28T03:48:05Z",
       "repoId": 520784735,
       "pullRequestNo": 1006
+    },
+    {
+      "name": "hippalus",
+      "id": 17534654,
+      "comment_id": 2557978611,
+      "created_at": "2024-12-21T03:40:55Z",
+      "repoId": 520784735,
+      "pullRequestNo": 1047
     }
   ]
 }
