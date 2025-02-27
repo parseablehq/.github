@@ -2,6 +2,8 @@ openapi: 3.0.0
 info:
   title: Log Stream Management
   version: 1.0.0
+  description: |-
+    The schema contains API for Parseable OSS and Enterprise few of the API end points are only limited to enterprise version. 
 servers:
   - url: http://{{endpoint}}
 components:
