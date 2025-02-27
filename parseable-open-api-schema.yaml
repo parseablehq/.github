@@ -73,16 +73,6 @@ paths:
       security:
         - basicAuth: []
       parameters:
-        - name: X-P-META-Test
-          in: header
-          schema:
-            type: string
-          example: hello
-        - name: X-P-META-another-test
-          in: header
-          schema:
-            type: string
-          example: wow
         - name: stream_name
           in: path
           schema:
@@ -141,106 +131,6 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /api/v1/logstream/{stream_name}/cache:
-    put:
-      tags:
-        - default
-      summary: Disable caching
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: object
-              example: false
-      security:
-        - basicAuth: []
-      parameters:
-        - name: stream_name
-          in: path
-          schema:
-            type: string
-          required: true
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-    get:
-      tags:
-        - default
-      summary: Check cache enabled state
-      security:
-        - basicAuth: []
-      parameters:
-        - name: stream_name
-          in: path
-          schema:
-            type: string
-          required: true
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-  /api/v1/logstream/{stream_name}/alert:
-    put:
-      tags:
-        - default
-      summary: Set alert for a stream (composite type)
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: object
-              example:
-                version: v1
-                alerts:
-                  - name: Unauthorised access
-                    message: secret was accessed by an unauthorised user
-                    rule:
-                      config: >-
-                        (verb =% "list" or verb =% "get") and
-                        (objectRef_resource = "secrets" and user_username !%
-                        "test-user")
-                      type: composite
-                    targets:
-                      - type: webhook
-                        endpoint: >-
-                          https://webhook.site/85444d74-1cec-46a1-a8d3-a2b952d60baa
-                        skip_tls_check: false
-                        repeat:
-                          interval: 10s
-                          times: 5
-      security:
-        - basicAuth: []
-      parameters:
-        - name: stream_name
-          in: path
-          schema:
-            type: string
-          required: true
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
-    get:
-      tags:
-        - default
-      summary: Get alert for a stream
-      security:
-        - basicAuth: []
-      parameters:
-        - name: stream_name
-          in: path
-          schema:
-            type: string
-          required: true
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json: {}
   /api/v1/query:
     post:
       tags:
@@ -286,16 +176,6 @@ paths:
       security:
         - basicAuth: []
       parameters:
-        - name: X-P-META-Test
-          in: header
-          schema:
-            type: string
-          example: hello
-        - name: X-P-META-another-test
-          in: header
-          schema:
-            type: string
-          example: wow
         - name: X-P-Stream
           in: header
           schema:
