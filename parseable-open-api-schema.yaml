@@ -5,7 +5,7 @@ info:
   description: |-
     The schema contains API for Parseable OSS and Enterprise few of the API end points are only limited to enterprise version. 
 servers:
-  - url: http://demo.parseable.com/
+  - url: https://demo.parseable.com/
 components:
   securitySchemes:
     basicAuth:
