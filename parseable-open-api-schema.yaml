@@ -17,7 +17,7 @@ paths:
   /api/v1/logstream/{stream_name}:
     put:
       tags:
-        - default
+        - Dataset Management
       summary: Create a log stream
       requestBody:
         content: {}
@@ -36,7 +36,7 @@ paths:
             application/json: {}
     delete:
       tags:
-        - default
+        - Dataset Management
       summary: Delete a log stream
       security:
         - basicAuth: []
@@ -53,7 +53,7 @@ paths:
             application/json: {}
     post:
       tags:
-        - default
+        - Dataset Management
       summary: Send logs to a log stream URL
       requestBody:
         content:
@@ -86,7 +86,7 @@ paths:
   /api/v1/logstream:
     get:
       tags:
-        - default
+        - Dataset Management
       summary: List all log streams
       security:
         - basicAuth: []
@@ -98,7 +98,7 @@ paths:
   /api/v1/logstream/{stream_name}/schema:
     get:
       tags:
-        - default
+        - Dataset Management
       summary: Get Schema from the Stream
       security:
         - basicAuth: []
@@ -116,7 +116,7 @@ paths:
   /api/v1/logstream/{stream_name}/stats:
     get:
       tags:
-        - default
+        - Dataset Management
       summary: Get storage stats for a stream
       security:
         - basicAuth: []
@@ -134,7 +134,7 @@ paths:
   /api/v1/query:
     post:
       tags:
-        - default
+        - Query
       summary: Query a log stream
       requestBody:
         content:
@@ -156,7 +156,7 @@ paths:
   /api/v1/ingest:
     post:
       tags:
-        - default
+        - Data Ingestion
       summary: Send logs to a log stream with HTTP Header
       requestBody:
         content:
@@ -189,7 +189,7 @@ paths:
   /api/v1/logstream/{stream_name}/retention:
     put:
       tags:
-        - default
+        - Dataset Management
       summary: Set retention for a stream
       requestBody:
         content:
@@ -215,7 +215,7 @@ paths:
             application/json: {}
     get:
       tags:
-        - default
+        - Dataset Management
       summary: Get retention for a stream
       security:
         - basicAuth: []
@@ -328,7 +328,7 @@ paths:
             application/json: {}
     put:
       tags:
-        - default
+        - Dataset Management
       summary: Add role to a user
       requestBody:
         content:
@@ -401,11 +401,11 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /api/v1/role/default:
+  /api/v1/role/Dataset Management:
     put:
       tags:
         - Role Management
-      summary: Set default role
+      summary: Set Dataset Management role
       requestBody:
         content:
           application/json:
@@ -420,7 +420,7 @@ paths:
     get:
       tags:
         - Role Management
-      summary: Get default role
+      summary: Get Dataset Management role
       responses:
         '200':
           description: Successful response
