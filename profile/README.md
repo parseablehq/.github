@@ -4,7 +4,7 @@
 </p>
 
 
-Parseable is an open source, Kubernetes native, log storage and observability platform. 
+Parseable is an open source, Kubernetes native, observability platform, that delivers **fast observability on S3**.
 
 Written in Rust, Parseable has a low CPU, memory footprint and offers low latency, high throughput, out of the box. 
 
