@@ -1,6 +1,6 @@
 <p align="center">
   <span">
-    <a href="https://www.parseable.io" target="_blank"><img src="https://raw.githubusercontent.com/parseablehq/.github/main/images/logo.svg" alt="Parseable" width="500" height="100" /></a>
+    <a href="https://www.parseable.io" target="_blank"><img src="https://raw.githubusercontent.com/parseablehq/.github/main/images/new-logo.svg" alt="Parseable" width="500" height="100" /></a>
 </p>
 
 
