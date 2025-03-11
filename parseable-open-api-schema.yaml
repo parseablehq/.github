@@ -19,6 +19,11 @@ paths:
       tags:
         - Dataset Management
       summary: Create a log stream
+      description: |
+        This endpoint is used to create a new log stream within Parseable.  
+        A **log stream** is a group of similar logs. For example, you can create a log stream  
+        for a specific application's logs, another log stream for your database logs, and so on.  
+        You can create as many log streams as needed to organize and manage logs efficiently.  
       requestBody:
         content: {}
       security:
@@ -55,6 +60,12 @@ paths:
       tags:
         - Dataset Management
       summary: Send logs to a log stream URL
+      description: |
+        **Log Ingestion API via Stream Endpoint**  
+        In this approach, you need to create a stream first using the **Create Stream API**.  
+        Once the stream is created, you can send logs to the stream ingestion API endpoint:  
+        **http://{{endpoint}}/api/v1/logstream/{{stream_name}}**  
+        This API does not require any headers for specifying the stream name.
       requestBody:
         content:
           application/json:
@@ -136,6 +147,14 @@ paths:
       tags:
         - Query
       summary: Query a log stream
+      description: |
+        **Parseable Log Query API**  
+        The Parseable log query API allows you to query logs in real-time using **standard PostgreSQL syntax**.  
+        To retrieve logs, the API requires **startTime** and **endTime** parameters. 
+        
+        #### Timezone and Format  
+        Parseable expects both the **startTime** and **endTime** in **UTC**, following **RFC 3339** and **ISO 8601** standards.  
+        Example format: **2022-09-10T05:00:00+00:00** 
       requestBody:
         content:
           application/json:
@@ -158,6 +177,13 @@ paths:
       tags:
         - Data Ingestion
       summary: Send logs to a log stream with HTTP Header
+      description: |
+        **Log Ingestion API via Ingestion Endpoint and HTTP Header**  
+        In this approach, you can add the **x-p-stream** header to the request to specify the stream name.  
+        If the stream does not exist, it will be created automatically.  
+
+        This method is particularly useful for **automation scenarios**, where you want to dynamically create a stream  
+        and send logs to it via agents without requiring a separate stream creation step.
       requestBody:
         content:
           application/json:
