@@ -21,9 +21,7 @@ paths:
       summary: Create a log stream
       description: |
         This endpoint is used to create a new log stream within Parseable.  
-        A **log stream** is a group of similar logs. For example, you can create a log stream  
-        for a specific application's logs, another log stream for your database logs, and so on.  
-        You can create as many log streams as needed to organize and manage logs efficiently.  
+        A **log stream** is a group of similar logs. For example, you can create a log stream for a specific application's logs, another log stream for your database logs, and so on. You can create as many log streams as needed to organize and manage logs efficiently.  
       requestBody:
         content: {}
       security:
