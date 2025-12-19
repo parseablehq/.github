@@ -9,5 +9,5 @@ Parseable is an observability datalake built from first principles. Written in R
 <h3 align="center">
   <b>Get started today at <a href="https://telemetry.new">telemetry.new</a></b>
   •
-  <b><a href="https://launchpass.com/parseable">Community</a></b>
+  <b><a href="https://logg.ing/community">Community</a></b>
 </h3>
