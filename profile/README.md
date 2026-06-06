@@ -15,11 +15,9 @@ Parseable is a great choice if you:
 - Understand the versatility of a columnar data lake architecture and want to leverage it for their observability data.
 - Are looking to unify observability data in a single platform.
 
-## Featured repositories
-
 <table>
   <tr>
-    <th colspan="2" align="center">Core</th>
+    <th colspan="4" align="center">Featured repositories</th>
   </tr>
   <tr>
     <td><a href="https://github.com/parseablehq/parseable"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=parseablehq&repo=parseable&show_icons=true&theme=dark"><source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=parseablehq&repo=parseable&show_icons=true"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=parseablehq&repo=parseable&show_icons=true"></picture></a><br /><br /><a href="https://github.com/parseablehq/pai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=parseablehq&repo=pai&show_icons=true&theme=dark"><source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=parseablehq&repo=pai&show_icons=true"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=parseablehq&repo=pai&show_icons=true"></picture></a></td>
