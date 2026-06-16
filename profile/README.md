@@ -4,17 +4,19 @@
   <b><a href="https://logg.ing/community">Join the community</a></b>
 </h3>
 
-Parseable is an open source, columnar data lake platform - purpose built for observability. Send logs, metrics & traces to Parseable via logging agents, OpenTelemetry, Kafka, eBPF or other sources. Use native observability features like alerting, dashboards, anomaly detection, APM, PromQL & SQL - all within a single binary.
+Parseable is an open source, columnar data lake platform - purpose built for observability. Send logs, metrics & traces to Parseable via logging agents, OpenTelemetry, Kafka, eBPF or other sources. Use native observability features like alerting, dashboards, anomaly detection, APM, PromQL & SQL - all within a single binary. 
+
+[Read more in docs ↗︎](https://www.parseable.com/docs)
 
 ## When to use Parseable?
 
 Parseable is a great choice if you:
 
-- Have more than 10TB of observability data per month. Cloud based systems start to get expensive at this scale, and Parseable's columnar data lake architecture helps bring observability back within budget.
+- Are looking to unify observability data in a single system.
+- Understand the versatility of a columnar data lake architecture and want to leverage it for your observability data.
 - Care about data sovereignty and want to maintain absolute control over your data.
-- Understand the versatility of a columnar data lake architecture and want to leverage it for their observability data.
-- Are looking to unify observability data in a single platform.
-
+- Are concerned about rising costs of your current observability platform.
+  
 ## Get started
 
 ```
