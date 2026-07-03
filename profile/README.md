@@ -1,3 +1,5 @@
+## Introduction
+
 Parseable is an open source, columnar data lake platform - purpose built for observability. Send logs, metrics & traces to Parseable via logging agents, OpenTelemetry, Kafka, eBPF or other sources. Use native observability features like alerting, dashboards, anomaly detection, APM, PromQL & SQL - all within a single binary. 
 
 [Read more in docs ↗︎](https://www.parseable.com/docs) | [Join the community ↗︎](https://logg.ing/community)
