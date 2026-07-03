@@ -1,12 +1,6 @@
-<h3 align="center">
-  <b>Try out at <a href="https://telemetry.new">telemetry.new</a></b>
-  •
-  <b><a href="https://logg.ing/community">Join the community</a></b>
-</h3>
-
 Parseable is an open source, columnar data lake platform - purpose built for observability. Send logs, metrics & traces to Parseable via logging agents, OpenTelemetry, Kafka, eBPF or other sources. Use native observability features like alerting, dashboards, anomaly detection, APM, PromQL & SQL - all within a single binary. 
 
-[Read more in docs ↗︎](https://www.parseable.com/docs)
+[Read more in docs ↗︎](https://www.parseable.com/docs) | [Join the community ↗︎](https://logg.ing/community)
 
 ## When to use Parseable?
 
@@ -22,6 +16,8 @@ Parseable is a great choice if you:
 ```
 curl -fsSL https://logg.ing/install | sh -
 ```
+
+If you're looking for Parseable cloud, check out <a href="https://telemetry.new">telemetry.new</a>
 
 ## Featured repositories
 
