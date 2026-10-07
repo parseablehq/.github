@@ -71,19 +71,21 @@ representations inaccurate in any respect.
 
 10. **Your signature**:
 
-Full Name: _____________________________
+Full Name: <ins>Rakshit Joshi<ins/>
 
-Signature: _____________________________
+Signature:<br>
+<img width="527" height="203" alt="image" src="https://github.com/user-attachments/assets/773333c4-acb1-48da-9b4a-9b6b712535d8" />
 
-Date: _____________________________
 
-E-mail: _____________________________
+Date: <ins>31 December 2025<ins/>
 
-Address: _____________________________
+E-mail: rakshit240405@gmail.com
+
+Address: <ins>Haldwani, Uttarakhand, India<ins/>
 
 If You are signing as an authorized representative on behalf of your company or organization, please include the
 following:
 
-Organization Name: _____________________________
+Organization Name: 
 
-Your Title: _____________________________
+Your Title:
